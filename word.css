@@ -1,0 +1,996 @@
+body{
+    width: 100%;
+    height: auto;
+    font-size: 12px;
+    font-family: sans-serif;
+    background-color: rgb(201, 198, 198);
+}
+main{
+    font-size: 12px;
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+
+
+.one{
+width: 100%;
+height: 70px;
+background-color: #0351A1;
+border: none;
+margin: none;
+margin-left: -.6%;
+margin-top: -1%;
+color: white;
+}
+
+.one .filesym{
+display: flex;
+margin-left: 3px;
+margin-top: 15px;
+
+}
+
+.filesym .docu{
+    margin-left: 440px;
+}
+
+.filesym button{
+    margin-left: 250px;
+    background-color: white;
+    color: rgb(89, 89, 218);
+    border: none;
+    outline: none;
+}
+
+.filesym i{
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.filesym .minimize{
+    margin-left: 490px;
+    margin-top: -20px;
+}
+
+.filesym select{
+    height: 15px;
+    background: transparent;
+    color: white;
+    border: none;
+}
+
+.filesym .selone{
+    margin-left: -10px;
+}
+
+.filesym .repeat{
+    transform: rotate(270deg);
+    margin-left: 10px;
+    margin-top: 9px;
+    color: rgb(129, 129, 216);
+}
+
+.filesym .rest{
+    margin-left: 540px;
+    margin-top: -12px;
+}
+
+.filesym .close{
+    margin-left: 590px;
+    margin-top:-14px;
+}
+
+.filesym div i{
+    font-size: 12px;
+}
+
+
+.one .list{
+margin-top: 10px;
+margin-left: 23px;
+display: flex;
+font-size: 12px;
+}
+
+.list div{
+    margin-right: 20px;
+}
+
+.list .what{
+    margin-left: 10px;
+    margin-right: 400px;
+    display: flex;
+}
+
+.list .what i{
+    font-size: 16px;
+}
+
+.list .what div{
+    margin-left: 9px;
+}
+
+.list .share{
+    display: flex;
+}
+.share i{
+    margin-left: -45px;
+    font-size: 15px;
+    
+}
+
+.share nav{
+    margin-left: 10px;
+}
+
+
+
+.two{
+width: 100%;
+height: 100px;
+background-color: #DFDFDF;
+border: none;
+margin: none;
+margin-top: 0px;
+margin-left: -.6%;
+display: flex;
+column-count: 5;
+
+}
+
+.two .clipboard{
+    margin-top: 0px;
+    width: 160px;
+    height: 86px;
+    border: none;
+}
+
+.two .font{
+    margin-top: 2px;
+    width: 250px;
+    height: 95px;
+    border: 1px solid black;
+    border: none;
+    border-right: 1px solid rgb(194, 185, 185);
+    border-left: 1px solid  rgb(194, 185, 185);
+}
+
+.two .paragraph{
+    border: none;
+border-right: 1px solid rgb(194, 185, 185);
+margin-top: 2px;
+height: 95px;
+width: 200px;
+
+}
+
+.two .styles{
+    border: none;
+    margin-top: 2px;
+}
+
+.two .editing{
+    border: none;
+    margin-top: 2px;
+    
+}
+
+
+.clipboard{
+    display: inline;
+}
+
+.clipboard .paste{
+    margin-top: 10px;
+    margin-left: 20px;
+   }
+
+   .paste i{
+       font-size: 25px;
+       color: #ffda34;
+   }
+
+
+.clipboard .pastesel{
+ margin-top: 0px;
+ margin-left: 20px;
+ font-size: 10px;
+}
+
+.clipboard select{
+    background: transparent;
+    border: none;
+    width: 11px;
+    margin-left: 10px;
+}
+
+.clipboard .forsel{
+
+    width: 150px;
+    height: 150px;
+    background-color: rgb(180, 168, 168);
+    margin-top: 20px;
+    margin-left: -10px;
+    visibility: hidden;
+}
+.cut i:hover .forsel  {
+visibility: visible;
+}
+
+.clipboard .cut{
+    margin-left: 55px;
+    margin-top: -220px;
+    font-size: 10px;
+}
+
+.cut i{
+font-size: 15px;
+transform: rotate(-90deg);
+color: rgb(49, 167, 240);
+}
+
+.clipboard .copy{
+    margin-left: 55px;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.copy i{
+font-size: 15px;
+}
+
+.clipboard .brush{
+    margin-left: 55px;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.brush i{
+font-size: 15px;
+}
+
+.title{
+    margin-left: 50px;
+    margin-top: 9px;
+    font-size: 10px;
+}
+
+.pin{
+   margin-left: 144px; 
+   margin-top: -6px;
+   transform: rotate(90deg);
+   font-size: 10px;
+}
+
+.two .font{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.font .selfont{
+margin-top: 10px;
+margin-left: 5px;
+}
+
+.selfont select{
+font-size: 12px;
+width: 85px;
+}
+.selfont select:focus{
+    width: 244px;
+    background-color: transparent;
+    outline: none;
+    width: 85px;
+}
+
+.selfont select::after{
+    border: 1px solid rgb(180, 168, 168);;
+}
+
+.font .fontsize{
+margin-left: 88px;
+margin-top: -17.4px;
+}
+
+.fontsize select{
+    font-size: 12px;
+    width: 39px;
+}
+
+.fontsize select:focus{
+    background-color: transparent;
+    outline: none;
+}
+
+.fontsize select::after{
+    border: 1px solid rgb(180, 168, 168);
+}
+
+.font .caretup{
+margin-left: 130px;
+margin-top: -17px;
+}
+
+.caretup button{
+    border: none;
+    outline: none;
+    font-size: 12px;
+    background-color: transparent;
+}
+
+.caretup div{
+    margin-top: -20px;
+    margin-left: 10px;
+}
+
+.caretup i{
+font-size: 10px;
+}
+
+
+.font .caretdown{
+    margin-left: 149px;
+    margin-top: -14px;
+    }
+    
+    .caretdown button{
+        border: none;
+        outline: none;
+        font-size: 10px;
+        background-color: transparent;
+    }
+    
+    .caretdown div{
+        margin-top: -16px;
+        margin-left: 10px;
+    }
+    
+    .caretdown i{
+    font-size: 10px;
+    }
+
+    .font .caretAa{
+        margin-left: 179px;
+        margin-top: -13px;
+        border-left: 1px solid black ;
+        border-right: 1px solid black ;
+        width: 35px;
+        }
+        
+        .caretAa button{
+            border: none;
+            outline: none;
+            font-size: 12px;
+            background-color: transparent;
+
+        }
+        
+        .caretAa div{
+            margin-top: -20px;
+            margin-left: 10px;
+        }
+        
+        .caretAa i{
+        font-size: 10px;
+        }
+
+        .font .pencil{
+            margin-left: 219px;
+            margin-top: -18px;
+            width: 35px;
+            }
+            
+            .pencil button{
+                border: none;
+                outline: none;
+                font-size: 10px;
+                background-color: transparent;
+    
+            }
+            
+            .pencil div{
+                margin-top: -8px;
+                margin-left: 6px;
+                color: rgb(255, 102, 0);
+            }
+            
+            .pencil i{
+            font-size: 12px;
+            }
+     .font .buttonb{
+         width: 20px;
+         height: 20px;
+         border: 1px solid rgb(102, 97, 97);
+         margin-top: 10px;
+         margin-left: 6px;
+         font-size: 11px;
+         text-align: center;
+         background-color:  rgb(224, 216, 216);
+         
+     }
+
+     .listflex{
+        margin-left: -215px;
+        margin-top: 38px;
+     }
+
+     .listflex em{
+         margin-left: -5px;
+        font-size: 11px;
+        font-weight: bold;
+     }
+
+     .listflex button{
+         font-size: 11px;
+         font-weight: bold;
+         border: none;
+         background-color: transparent;
+     }
+
+     .listflex button select{
+        border: none;
+        background-color: transparent;
+        width: 11px;
+        margin-left: 10px;
+    }
+
+    .listflex select:focus{
+        background-color: transparent;
+        outline: none;
+    }
+    
+    .list select::after{
+        border: 1px solid rgb(180, 168, 168);;
+    }
+
+    .listflex s{
+        margin-left: -7px;
+    }
+    .listflex .subs{
+        display: flex;
+        font-size: 11px;
+        font-weight: bold;
+        margin-left: 85px;
+        margin-top: -15px;
+    }
+
+    .subs div{
+        font-size: 8px;
+    }
+
+
+    .listflex .sub{
+        font-size: 11px;
+        font-weight: bold;
+        margin-left: 65px;
+        margin-top: -15px;
+    }
+
+    .sub div{
+        font-size: 8px;
+        margin-left: 6px;
+        margin-top: -5px;
+    }
+
+    .listflex .theas{
+        display: flex;
+        border: none;
+        border-left:1px solid black ;
+        width: 40px;
+        height: 18px;
+        margin-left: 106px;
+        margin-top: -18px;
+    }
+
+    .theas button{
+        margin-left: -9px;
+        margin-top: 2px;
+        font-size: 12px;
+        text-shadow: 1px 1px 4px rgb(97, 97, 228);
+        color:black;
+        opacity: 3px;
+        outline: black;
+    }
+
+    .theas button div{
+        text-shadow: none;
+        margin-left: 30px;
+        margin-top: -9px;
+        font-size: 8px;
+    }
+
+    .pencol{
+        display: block;
+        margin-left: 140px;
+        margin-top: -19px;
+    }
+    .pencol .fafa{
+        margin-top: -10px;
+        margin-left: 7px;
+    }
+    .pencol .yellow{
+        width: 15px;
+        height: 3px;
+        background-color: yellow;
+        border: none;
+        border-radius: 5px;
+        margin-left: 9px;
+        margin-top: -2px;
+    }
+
+        .pencol div{
+            margin-top: -15px;
+        }
+
+    .pencol select{
+        border: none;
+        outline: none;
+        background-color: transparent;
+        width: 9px;
+        margin-left: 30px;
+    }
+
+     .color{
+         margin-left: 185px;
+         margin-top: -15px;
+     }
+
+
+    .color .red{
+        display: flex;
+        width: 15px;
+        height: 3px;
+        background-color: red;
+        border: none;
+        margin-left: -4px;
+        margin-top: -2px;
+    }
+
+    .color select{
+        border: none;
+        outline: none;
+        background-color: transparent;
+        width: 9px;
+        margin-left: 20px;
+    }
+
+    .red select{
+      margin-top: -7px;
+      margin-left: 25px;
+    }
+
+     .clip{
+     margin-top: 85px;
+     margin-left: -130px;
+     font-size: 10px;
+    }
+
+    .clippin{
+        margin-top: 85px;
+        margin-left: 115px;
+        transform: rotate(90deg);
+        font-size: 10px;
+    }
+
+    .par{
+        font-size: 10px;
+             margin-top: 85px;
+             margin-left: 85px;
+         }
+         .parpin{
+             font-size: 10px;
+             margin-top: 86px;
+             margin-left: 60px;
+             transform: rotate(90deg);
+         }
+         
+
+    .paragraph{
+        margin-left: -196px;
+    }
+
+    .paragraph .lorder{
+        margin-top: 12px;
+
+    }
+
+    .lorder div{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .lorsel select{
+        background-color: transparent;
+        width: 10px;
+        outline: none;
+        border: none;
+        margin-left: 20px;
+    }
+
+    .lorder .lorsel{
+        margin-top: -15px;
+    }
+      
+    .ulorder{
+          display: flex;
+        margin-top: -14px;
+    } 
+
+    .ulorder div{
+        margin-left: 30px;
+        font-size: 12px;
+    }
+
+    .ulsel select{
+        background-color: transparent;
+        width: 10px;
+        outline: none;
+        border: none;
+    }
+
+
+    .ulorder .ulsel{
+       margin-left: 8px;
+       margin-top: -2px;
+
+    }
+        .multilevel{
+        margin-top: -15px;
+
+        }
+    .multilevel div{
+        margin-left: -19px;
+        font-size: 12px;
+    }
+     
+    .multilevel select{
+        background-color: transparent;
+        width: 10px;
+        outline: none;
+        border: none;
+    }
+
+    .multilevel nav{
+     margin-left: -2px;
+     margin-top: -15px;
+
+    }
+
+    .dedent{
+        display: flex;
+        padding-left: 15px;
+        margin-top: 2px;
+    }
+    .dedent div{
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .paragraph .linede{
+        display: flex;
+        margin-left: 62px;
+        margin-top: 1px;
+    }
+   .linede .deline{
+        width: 43px;
+        height: 15px;
+        border: 1px solid black;
+        border: none;
+        border-right: 1px solid rgb(194, 185, 185);
+        border-left: 1px solid  rgb(194, 185, 185);
+        margin-top: -15.5px;
+        margin-left: -20px;
+    }
+
+    .linede div{
+        font-size: 10px;
+    }
+
+    .linede nav{
+        margin-top: -5px;
+    }
+
+    .linede select{
+        margin-left: 5px;
+    }
+
+    .sort{
+        padding-left: 35px;
+        margin-top: -14px;
+    }
+
+    .para{
+        padding-left: 60px;
+        margin-top: -12px;
+    }
+
+
+     .paragraph aside{
+     margin-left: -90px;
+
+     }
+    .paragraph  aside .lorder{
+        margin-top: 12px;
+
+    }
+
+   aside .lorder div{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+      
+ aside .ulorder{
+        margin-top: -12.5px;
+    } 
+
+ aside .ulorder div{
+        margin-left: 34px;
+        font-size: 12px;
+    }
+
+
+  aside  .multilevel{
+        margin-top: -13px;
+
+        }
+    aside .multilevel div{
+        margin-left: 55px;
+        font-size: 12px;
+    }
+     
+
+   aside .dedent{
+        margin-top: -12.5px;
+    }
+   aside .dedent div{
+        font-size: 12px;
+        margin-left: 60px;
+        border:1px solid rgb(194, 185, 185);
+        height: 11px;
+        width: 11px;
+        background-color: rgb(167, 165, 167);
+    }
+
+    aside .linesp{
+        border: none;
+        border-right: 1px solid rgb(194, 185, 185);
+        margin-top: -13px;
+        margin-right: 110px;
+        height: 14px;
+
+    }
+
+    .arrow{
+        padding-left: 65px;
+        margin-top: -14px;
+    }
+
+    .arrow div{
+        margin-left: 33px;
+    }
+
+    .leftal{
+        margin-top: -13px;
+    }
+    .leftal div{
+        margin-left: 14px;
+    }
+
+    .leftjust{
+       margin-top: -15px;
+    }
+
+    .leftjust select{
+        margin-left: 30px;
+    }
+    aside .linesp1{
+        border: none;
+        border-right: 1px solid rgb(194, 185, 185);
+        margin-top: -16px;
+        margin-right: 63px;
+        height: 14px;
+    }
+    
+
+    .filldrip{
+      font-size: 10px;
+      margin-top: -18px;
+    }
+
+    .filldrip div{
+        font-size: 10px;
+        margin-left:15px;
+        transform: rotate(-70deg);
+    }
+
+   .filldrip .button{
+       margin-top: -10px;
+   }
+
+   .button{
+       margin-top: -10px;
+   }
+
+    .button button{
+        background-color: rgb(221, 218, 221);
+        border: 1px solid black;
+        margin-left: -50px;
+    }
+
+    .squareplus{
+
+        margin-top: -15px;
+    }
+
+    .squareplus div{
+        margin-left: 12px;
+        color: white;
+    }
+    .squareplus .leftpl{
+        margin-top: -15px;
+       
+    }
+    .leftpl select{
+        margin-left: 15px;
+        
+    }
+
+    .styles{
+        display: block;
+    }
+
+    .styles .header{
+     width: 400px;
+     max-width: 400px;
+     height: 50px;
+     max-height: 50px;
+     margin-top: -10px;
+     margin-left: -50px;
+     position: relative;
+     display: flex;
+     overflow-y: scroll;
+    flex-wrap: wrap;
+     padding-bottom: 20px;
+    }
+
+    .header div{
+        width: 80px;
+        min-width: 80px;
+        height: 40px;
+        max-height: 40px;
+        background-color: rgb(255, 255, 255);
+        margin-right: -20px;
+        margin-bottom: 10px;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .footer{
+        margin-left: 90px;
+        margin-top: 8px;   
+    }
+    .footer .styles{
+        font-size: 10px;
+    }
+
+    .footer .stypin{
+
+    margin-left: 260px;
+    margin-top: -6px;
+    font-size: 10px;
+    transform: rotate(90deg);
+    }
+.footer .linn{
+    border: 0px;
+    border-right: 1px solid rgb(194, 185, 185);
+     height: 95px;
+    width: 100px;
+    margin-left: 176px;
+    margin-top: -98px;
+}
+
+.editing{
+ display: block;
+}
+.editing div{
+    margin-bottom: 5px;
+}
+
+.faac{
+    display: flex;
+}
+
+.faac div{
+    margin-left: -10px;
+}
+
+.search{
+    margin-top: -90px;
+}
+
+.unknown{
+    margin-top: 5px;
+    padding-left: 595px;
+}
+
+  .titedit{
+      padding-left: 605px;
+      margin-top: 4px;
+  }  
+.lineedit{
+    margin-top: -99px;
+    width: 250px;
+    height: 95px;
+    border: none;
+    border-right: 1px solid rgb(194, 185, 185);
+    padding-left: 450px;
+}
+
+.caretman{
+padding-left: 1500px;
+margin-top: -790px;
+transform: rotate(90deg);
+}
+
+
+
+
+.text div{
+    margin-left: 639px;
+    padding-bottom: 10px;
+}
+    
+.body{
+width: 200px;
+}
+
+
+.left{
+
+}
+
+.left textarea{
+    margin-left: 120px;
+    margin-top: 30px;
+    width: 700px;
+    height: 700px;
+       padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 40px;
+        padding-bottom: 50px;
+        font-family: arial;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: justify;
+        
+    border: none;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+}
+
+textarea:focus{
+    border: none;
+    outline: none;
+}
+
+
+@media(max-width: 600px){
+ 
+    .left textarea{
+        margin-left: -20px;
+        margin-top: 30px;
+        width: 250px;
+        height: 400px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 20px;
+        border: none;
+        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+    }
+
+}
+  
+
+
+
+
+
